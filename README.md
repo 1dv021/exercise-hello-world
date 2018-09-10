@@ -27,20 +27,11 @@ npm install
 ```
 
 Exempelutskrift:
+
 ```
-<span class="output">...
-      +-- find-up@2.1.0
-      | `-- locate-path@2.0.0
-      | +-- p-locate@2.0.0
-      | | `-- p-limit@1.1.0
-      | `-- path-exists@3.0.0
-      `-- load-json-file@2.0.0
-      +-- graceful-fs@4.1.11 deduped
-      +-- parse-json@2.2.0
-      | `-- error-ex@1.3.1
-      | `-- is-arrayish@0.2.1
-      +-- pify@2.3.0
-      `-- strip-bom@3.0.0 deduped</span>
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 232 packages from 606 contributors and audited 451 packages in 18.235s
+found 0 vulnerabilities
 ```
 
 #### npm start
@@ -54,9 +45,8 @@ npm start
 Exempelutskrift:
 
 ```
-
-&gt; exercise-hello-world@1.1.0 start <em>example-path</em>/1dv021/<em>example-username</em>-exercises/hello-world
-&gt; node app.js
+> exercise-hello-world@1.1.0 start example-path/1dv021/example-username-exercises/hello-world
+> node app.js
  
 Hello, World!
 ```
@@ -72,9 +62,8 @@ npm test
 Exempelutskrift:
 
 ```
-
-&gt; exercise-hello-world@1.1.0 start <em>example-path</em>/1dv021/<em>example-username</em>-exercises/hello-world
-&gt; node app.js
+> exercise-hello-world@1.1.0 start example-path/1dv021/example-username-exercises/hello-world
+> node app.js
 
 Test the function sayHello
 √ sayHello(); should return 'Hello, World!'
@@ -85,9 +74,8 @@ Test the function sayHello
 Exempelutskrift vid fel enligt tester (den förväntade strängen returneras inte av funktionen `sayHello`).
 
 ```
-
-&gt; exercise-hello-world@1.1.0 start <em>example-path</em>/1dv021/<em>example-username</em>-exercises/hello-world
-&gt; node app.js
+> exercise-hello-world@1.1.0 start example-path/1dv021/example-username-exercises/hello-world
+> node app.js
 
   Test the function sayHello
     1) should return 'Hello, World!'
@@ -119,9 +107,8 @@ npm run lint
 Skulle du till exempel indenterat koden fel och råkat skriva ett semikolon på fel plats kan du få följande utskrift.
 
 ```
-
-&gt; exercise-hello-world@1.1.0 start example-path/1dv021/example-username-exercises/hello-world
-&gt; node app.js
+> exercise-hello-world@1.1.0 start example-path/1dv021/example-username-exercises/hello-world
+> node app.js
 
   standard: Use JavaScript Standard Style (https://standardjs.com)
   standard: Run `standard --fix` to automatically fix some problems.
