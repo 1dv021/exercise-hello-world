@@ -13,8 +13,8 @@
 const hello = require('./src/hello')
 
 // Call the function "sayHello" without any arguments and save the
-// return value in the variable "greeting".
-let greeting = hello.sayHello()
+// return value in the constant "greeting".
+const greeting = hello.sayHello()
 
-// Print the value of the variable "greeting" to the terminal (console).
+// Print the value of the constant "greeting" to the terminal (console).
 console.log(greeting)

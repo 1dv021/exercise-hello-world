@@ -17,4 +17,4 @@ function sayHello () {
   // TODO: Write your code here!
 }
 
-exports.sayHello = sayHello
+module.exports.sayHello = sayHello
